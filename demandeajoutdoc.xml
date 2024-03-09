@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="Content">
+	<name>Demande d'ajout de documentation</name>
+	<author>Sebastien LHUILLIER</author>
+	<creationDate>Octobre 2023</creationDate>
+	<copyright>Sébastien LHUILLIER</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>sebastien.lhuillier+joomla@gmail.com</authorEmail>
+	<authorUrl>www.sebastien-lhuillier.com</authorUrl>
+	<version>1.0</version>
+	<description>Ce plugin ajoute un lien mailto: dans chacun des onglets des fichesmat</description>
+	<files>
+		<filename plugin="demandeajoutdoc">demandeajoutdoc.php</filename>
+		<filename>demandeajoutdoc.xml</filename>			
+		<filename>style.css</filename>	
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="adresemaildestinataire" type="text" default="" label="Destinataire" description="" rows="10" cols="5" />
+				<field name="messagedestinataire" type="text" default="" label="Message" description="" rows="10" cols="5" />
+			</fieldset>	
+		</fields>
+	</config>	
+</extension>
