@@ -1,0 +1,5 @@
+.message-demande-ajout-fichier a {
+	display:block;
+	font-weight:bold;
+	border:1px dashed black;
+}
